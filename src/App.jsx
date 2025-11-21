@@ -6,6 +6,8 @@ import ShowcaseSection from "./sections/ShowcaseSection";
 import ExperinceSection from "./sections/ExperienceSection";
 import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
+import Contact from "./sections/Contact";
+
 
 const App = () => {
   return (
@@ -18,6 +20,7 @@ const App = () => {
         <ExperinceSection/>
         <TechStack/>
         <Testimonials />
+        <Contact />
     </>
   );
 };
