@@ -18,17 +18,16 @@ const NavBar = () => {
 <header className={`navbar ${scrolled ? 'scrolled' : 
     'not-scrolled'}`}>
 <div className="inner">
-    <a className="log" href= "#hero">
-        Madusha Nadiranga
-    </a>
+<a className="log logo text-neon" href="#hero">Madusha Nadiranga</a>
     <nav className="desktop">
         <ul>
             {navLinks.map(({link, name}) => 
-            <li key={name} className="group">
-                <a href={link}></a>
-                    <span>{name}</span>
-                    <span className="underline"/>
-            </li>
+                <li key={name} className="group">
+                <a href={link} className="nav-link">
+                    <span className="nav-text">{name}</span>
+                    <span className="underline" />
+                </a>
+                </li>
             )}
         </ul>
     </nav>
