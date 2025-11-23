@@ -112,38 +112,144 @@ const techStackImgs = [
   },
 ];
 
+// constants.js
 const techStackIcons = [
-  {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
+// Backend
+
+    {
+    name: "C#",
+    category: "Backend Development",
+    modelPath: "/models/skill-logo/Backend/c.glb",
+    scale: 0.08,
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "Python",
+    category: "Backend Development",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
-  },
-  {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
+    name: "JAVA",
+    category: "Backend Development",
+    modelPath: "/models/skill-logo/Backend/java.glb",
+    scale: 1.4,
     rotation: [0, 0, 0],
   },
   {
-    name: "Project Manager",
+    name: ".NET",
+    category: "Backend Development",
+    imagePath: "/models/skill-logo/Backend/NET.png",
+    imageScale: 1,
+    rotation: [0, 0, 0],
+  },
+  {
+    name: "Node.js",
+    category: "Backend Development",
+    modelPath: "/models/node-transformed.glb",
+    scale: 4,
+    rotation: [0, -Math.PI / 2, 0],
+  },
+
+
+
+  // Forntend
+
+    {
+    name: "React",
+    category: "Frontend Development",
+    modelPath: "/models/skill-logo/Frontend/react.glb",
+    scale: 1,
+    rotation: [0, 0, 0],
+  },
+
+  {
+    name: "Flutter",
+    category: "Frontend Development",
+    modelPath: "/models/skill-logo/Frontend/flutter.glb",
+    scale: 26,
+    rotation: [0, 0, 0],
+  },
+
+  {
+    name: "HTML",
+    category: "Frontend Development",
+    imagePath: "/models/skill-logo/Frontend/html.webp",
+    imageScale: 0.6,
+    rotation: [0, 0, 0],
+    position: [0, -0.95, 0],
+  },
+  {
+    name: "CSS",
+    category: "Frontend Development",
+    modelPath: "/models/skill-logo/Frontend/css.webp",
+    imageScale: 0.6,
+    rotation: [0, 8, 0],
+  },
+  {
+    name: "Tailwind CSS",
+    category: "Frontend Development",
+    modelPath: "/models/skill-logo/Frontend/tailwind.webp",
+    imageScale: 0.6,
+    rotation: [0, 8, 0],
+  },
+  // Database
+    {
+    name: "SQL",
+    category: "Databases",
+    modelPath: "/models/skill-logo/Database/sql.glb",
+    scale: 1.3,
+    rotation: [0, 0, 0],
+  },
+    {
+    name: "Firebase",
+    category: "Databases",
+    imagePath: "/models/skill-logo/Database/firebase.webp",
+    imageScale: 0.7,
+    rotation: [0, 0, 0],
+  },
+
+  {
+    name: "Mongo DB",
+    category: "Databases",
+    imagePath: "/models/skill-logo/Database/mongo.png",
+    imageScale: 0.53,
+    rotation: [0, 0, 0],
+  },
+
+  {
+    name: "PostgreSQL",
+    category: "Databases",
+    imagePath: "/models/skill-logo/Database/PostgreSQL.webp",
+    imageScale: 0.5,
+    rotation: [0, 0, 0],
+  },
+
+  // Version Control & Cloud
+  {
+    name: "Git",
+    category: "Version Control & Cloud",
     modelPath: "/models/git-svg-transformed.glb",
     scale: 0.05,
     rotation: [0, -Math.PI / 4, 0],
   },
+  {
+    name: "Git Hub",
+    category: "Version Control & Cloud",
+    modelPath: "/models/skill-logo/VersionControl /github.glb",
+    scale: 2,
+    rotation: [0, 0, 0],
+  },
+    {
+    name: "Azure DevOps",
+    category: "Version Control & Cloud",
+    imagePath: "/models/skill-logo/VersionControl /DevOps.jpg",
+    imageScale: 0.6,
+
+  },
 ];
+
 
 const expCards = [
   {
