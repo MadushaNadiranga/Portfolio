@@ -8,6 +8,7 @@ import TechStack from "./sections/TechStack";
 import Testimonials from "./sections/Testimonials";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import AboutMe from "./sections/AboutMe";
 
 
 const App = () => {
@@ -20,7 +21,7 @@ const App = () => {
         <FeatureCards/>
         <ExperinceSection/>
         <TechStack/>
-        <Testimonials />
+        <AboutMe />
         <Contact />
         <Footer />
     </>
