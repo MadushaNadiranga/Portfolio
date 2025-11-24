@@ -44,12 +44,23 @@ const ShowcaseSection = () => {
                 {/* LEFT SIDE */}
                 <div className="first-project-wrapper" ref={project1Ref}>
                    <div className="image-wrapper">
-                    <img src="/images/project1.png" alt="project1" />
+                    <img src="/images/pcb-projects.png" alt="project1" />
                     </div> 
                     <div className="text-content">
-                        <h2>my project title</h2>
+                        <h2>Deep Learning Based PCB Defect Detection System.</h2>
                         <p className="text-white-50 md:text-xl">
-                            Description
+                            This system is an AI-powered automated inspection solution designed to detect PCB defects using deep learning and computer vision in manufacturing environments.
+                        </p>
+                    </div>
+
+<br/>
+                <div className="image-wrapper">
+                    <img src="/images/MegaCityCab.png" alt="project1" />
+                    </div> 
+                    <div className="text-content">
+                        <h2>Vehicle Reservation System</h2>
+                        <p className="text-white-50 md:text-xl">
+                            This Vehicle Reservation System is a web based application designed for Mega City Cab, a popular cab service in Colombo.
                         </p>
                     </div>
                 </div>
@@ -57,16 +68,17 @@ const ShowcaseSection = () => {
                 {/* RIGHT SIDE */}
                 <div className="project-list-wrapper overflow-hidden">
                     <div className="project" ref={project2Ref}>
-                        <div className="image-wrapper bg-[#ffefdb]">
-                            <img src="/images/project2.png" alt="project2" />
+                        <div className="image-wrapper-x "
+                            style={{
+                                background: " linear-gradient(180deg, #0D1117 0%, #0b0b0bff 100%)"}}>
+
+                            <img src="/images/testopia.png" alt="project2" />
                         </div>
-                        <h2>Project title</h2>
+                        <div className="text-content">
+                        <h2>Online Food Ordering App</h2><br/>
+                        <p className="text-white-50 md:text-xl">
+                            A user-friendly food ordering application that supports menu browsing, cart management, order scheduling, and live order tracking for a smooth digital dining experience.                        </p>
                     </div>
-                     <div className="project"ref={project3Ref}>
-                        <div className="image-wrapper bg-[#ffe7db]">
-                            <img src="/images/project3.png" alt="project2" />
-                        </div>
-                        <h2>Project title</h2>
                     </div>
                 </div>
             </div>
